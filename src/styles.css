@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+.wraper {
+  padding: 20px 22px;
+  transition: margin-right 0.3s ease 0s;
+  -webkit-transition: margin-right 0.3s ease 0s;
+  -moz-transition: margin-right 0.3s ease 0s;
+  min-width: 1000px;
+  background: #FFFFFF;
+}
+.padDiv {
+  padding-top: 24px;
+}
+.operate_btn{
+  margin-bottom: 10px;
+}
+
+.marginBottom{ margin-bottom: 100px;}
+
+.ant-btn-primary{ background: #ff6600 !important; border-color: #ff6600 !important;}
+
+h1.title{height: 50px;line-height:50px;font-size: 18px;padding-left: 14px;color: #5d5d5d; background: #fff; position: relative;}
+h1.noborder{ border: none;}
+.wraper_search{ background: #fff; padding: 15px 10px; margin-bottom: 20px; position: relative; min-width: 1100px;}
+.wraper_export{ margin-bottom: 10px;}
+.search_top{ height: 40px; line-height: 40px; text-align: right; min-width: 1250px; margin-bottom: 10px;}
+.search_btn{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.search_btn .nobg{ background: #fff; color: #ff6600;}
+
+/*数据汇总*/
+.data_all{ background: #fff; margin-bottom: 10px;}
+.data_all .data_all_title{ height: 50px; line-height: 50px; text-align: left; padding-left: 10px; font-size: 18px; font-family: "microsoft yahei", simhei, sans-serif; color: #343434; border-bottom: 1px solid #f1f1f1;}
+.data_all .data_all_list{ padding: 10px;}
+.data_all .data_all_list .data_line{ height: 40px; line-height: 40px;}
+.data_all .data_all_list .data_line div{text-align: left; float: left; font-size: 14px; color: #666;}
+.data_all .data_all_list .data_line div em{ font-size: 18px; font-weight: bold; color: #666;}
+.data_all .data_all_list .data_line_four div{ width: 25%;}
+.data_all .data_all_list .data_line_five div{ width: 20%;}
+.data_all .data_all_list .data_line_six div{ width: 16%;}
+.data_all .data_all_list .data_line_seven div{ width: 14%;}
+.data_all .data_all_list .data_line_eight div{ width: 12%;}
+
+
+/*新增编辑*/
+.add_title{ height: 30px; line-height: 30px; font-size: 16px;}
+.add_list{ background: #fff; padding: 10px 0;}
+.add_list>div{ margin: 10px 0px;}
+.add_list>div>span{ display: inline-block; width: 120px; text-align: right; font-size: 14px; margin-right: 10px;}
+
+
+/*新增和编辑的按钮*/
+.add_btn{ position: fixed; bottom: 0; height: 60px; padding-top: 15px; padding-left: 30px; width: 100%; left: 160px; background: #fff;}
+.add_btn .add_sub{ color: #fff;}
+
+/*添加和编辑的tab*/
+.add_tab{ height: 40px; width: 100%; background: #fff; padding-left: 50px;}
+.add_tab div{ width: 100px; text-align: center; float: left; height: 40px; line-height: 40px; font-size: 16px; cursor: pointer;}
+.add_tab div.active{ border-bottom: 1px solid #ff6600;}
+.add_bg{ width: 100%; height: 20px; background: #f6f7f9;}
+
+
+
+
+
+
+
+
+

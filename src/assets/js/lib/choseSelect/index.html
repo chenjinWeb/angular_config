@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>下拉搜索框选择</title>  
+  <style>*{margin:0;padding:0;}</style>
+</head>
+<body style="padding:50px;"> 
+   
+   带有"请选择.."提示文本用法：
+  <select data-placeholder="请选择项目投放" class="chosen-select" style="width:250px;">    
+  	<option></option>
+		<option value="全部">全部</option>
+    <option value="百橙无线端banner-打底项目">百橙无线端banner-打底项目</option>
+    <option value="百橙无线端-图文-打底项目" >百橙无线端-图文-打底项目</option>
+    <option value="百度app测试(暂停)" >百度app测试(暂停)</option>
+    <option value="今日头条(暂停)" >今日头条(暂停)</option>
+    <option value="今日头条测试(暂停)" >今日头条测试(暂停)</option>
+    <option value="落地页(暂停)" >落地页(暂停)</option>
+    <option value="百橙无线端banner(暂停)" >百橙无线端banner(暂停)</option>
+    <option value="百橙无线端-图文(暂停)" >百橙无线端-图文(暂停)</option>
+    <option value="百橙无线端-图文2(暂停)">百橙无线端-图文2(暂停)</option>
+    <option value="渠道后缀修改(待投放)" >渠道后缀修改(待投放)</option>
+    <option value="策略测试(待投放)" >策略测试(待投放)</option>
+    <option value="wap端测试(待投放)" >wap端测试(待投放)</option>
+    <option value="WAP添加测试(待投放)" >WAP添加测试(待投放)</option>
+    <option value="test(待投放)" >test(待投放)</option>
+    <option value="新建广告(待投放)">新建广告(待投放)</option>
+    <option value="价格(待投放)" >价格(待投放)</option>
+    <option value="adview(待投放)">adview(待投放)</option>
+    <option value="广点通单选(待投放)" >广点通单选(待投放)</option>
+    <option value="adview 广点通(待投放)" >adview 广点通(待投放)</option>
+    <option value="百川APP(待投放)" >百川APP(待投放)</option>
+    <option value="百橙APP(待投放)" >百橙APP(待投放)</option>
+    <option value="无线端单选(待投放)" >无线端单选(待投放)</option>
+    <option value="Tanx APP(待投放)" >Tanx APP(待投放)</option>
+    <option value="三图测试项目(待投放)">三图测试项目(待投放)</option>
+    <option value="Wifi万能钥匙(待投放)" >Wifi万能钥匙(待投放)</option>
+    <option value="mikitestapp-gdt(待投放)">mikitestapp-gdt(待投放)</option>
+    <option value="WiFi1(待投放)">WiFi1(待投放)</option>
+    <option value="陌陌app(待投放)" >陌陌app(待投放)</option>
+    <option value="1(待投放)" >1(待投放)</option>
+    <option value="mikitestapp-momo(待投放)">mikitestapp-momo(待投放)</option>        	
+  </select>
+
+
+
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	
+	
+	
+	
+
+	默认选择第一项：
+  <select  class="chosen-select">           	
+    <option value="Belgium">Belgium</option>
+    <option value="Belize">Belize</option>
+    <option value="Benin">Benin</option>
+    <option value="Bermuda">Bermuda</option>
+    <option value="Bhutan">Bhutan</option>
+    <option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option>
+    <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option>
+    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+    <option value="Botswana">Botswana</option>
+    <option value="Bouvet Island">Bouvet Island</option>
+    <option value="Brazil">Brazil</option>
+    <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+    <option value="Brunei Darussalam">Brunei Darussalam</option>
+    <option value="Bulgaria">Bulgaria</option>
+    <option value="Burkina Faso">Burkina Faso</option>
+    <option value="Burundi">Burundi</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Cameroon">Cameroon</option>
+    <option value="Canada">Canada</option>
+    <option value="Cape Verde">Cape Verde</option>            
+  </select>
+ 
+ 
+ 
+ 
+  <link rel="stylesheet" href="chosen.css" /> 
+  <script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+  <script src="chosen.jquery.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript">    
+    $('.chosen-select').chosen().change(function(tar,val){
+    	console.log(val.selected)
+    	console.log(tar)
+    });
+  </script>  
+
+</body>
+</html>

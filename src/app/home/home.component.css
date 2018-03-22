@@ -1,0 +1,308 @@
+.frame-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #fff;
+  min-width: 1024px;
+  z-index: 1000;
+  -moz-box-shadow:8px 4px 8px #D9D9D9;
+  -webkit-box-shadow:8px 4px 8px #D9D9D9;
+  box-shadow:8px 4px 8px #D9D9D9;
+}
+
+.frame-top .logo {
+  width: 160px;
+  height: 70px;
+  background: #ff6600;
+}
+
+.frame-top .logo img {
+  vertical-align: text-bottom;
+}
+
+.frame-top .logo span {
+  color: #8890a0;
+}
+
+.frame-top .logo i {
+  background-color: #ff5f60;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0px 3px;
+  font-size: 10px;
+}
+
+.frame-top .info {
+  color: #fff;
+}
+
+.frame-top .info-tips {
+  margin-right: 60px;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 65%;
+  color: #fff;
+  overflow: hidden;
+}
+
+.frame-top .info-tips i {
+  position: absolute;
+  height: 17px;
+  width: 19px;
+  top: 26px;
+  left: 2px;
+  background: url("../../assets/img/icons.png") 0px 0px no-repeat;
+}
+
+.frame-top .info-tips li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.frame-top .info-account {
+  width: 190px;
+  float: right;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.frame-top .info-account-name {
+  font-weight: 700;
+  width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  float: left;
+  cursor: pointer;
+}
+
+.frame-top .info-account-logout a {
+  color: #fff;
+  margin-left: 25px;
+}
+
+.frame-top .info-account-logout a:hover {
+  color: #fff;
+  text-decoration: underline
+}
+
+.frame-top .info-account-unit {
+  margin-top: 3px;
+  position: relative;
+  cursor: pointer;
+  height: 25px;
+}
+
+.frame-top .info-account-unit .info-account-nick {
+  display: block;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.frame-top .info-account-unit i {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background: url("../../assets/img/icons.png") -50px 0px no-repeat;
+  cursor: pointer;
+  top: 4px;
+  right: 20px;
+}
+
+.frame-top .info-account-unit i.up {
+  background-position: -70px 0;
+}
+
+.frame-top .info .info-account-list {
+  display: none;
+  padding-bottom: 6px;
+  max-height: 160px;
+  overflow: auto;
+  position: absolute;
+  width: 195px;
+  right: 0;
+  top: 23px;
+  background-color: #fff;
+  border: 1px solid #EEEEF5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.frame-top .info .info-account-list li {
+  line-height: 25px;
+  height: 25px;
+  overflow: hidden;
+  border-bottom: 1px dashed #EEEEF5;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.frame-top .info .info-account-list li:last-child {
+  border-bottom: none;
+}
+
+.frame-top .info-tip {
+  margin-right: 60px;
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 17%;
+  color: #fff;
+}
+
+.frame_menu{ position: absolute; left: 300px; height: 70px; line-height: 70px; z-index: 1000; min-width: 620px;}
+.frame_menu ul{}
+.frame_menu ul li{ float: left; text-align: center; font-size: 16px; height: 70px; line-height: 70px; cursor: pointer; margin-right: 10px; padding: 0 20px;}
+.frame_menu ul li:hover a{ color: #ff6600;}
+.frame_menu ul li a{ display: block; width: 100%; height: 100%; color: #666;}
+.frame_menu ul li.active{ color: red; border-bottom: 2px solid #ff6600;}
+.frame_menu ul li.active a{ color: #ff6600; text-decoration: none;}
+
+/*右侧用户*/
+.info {
+  position: fixed;
+  z-index: 1500;
+  right: 0;
+  top:0;
+}
+
+.frame-top-setting {
+  float: right;
+  height: 70px;
+  position: relative;
+  padding: 0 30px;
+  background-color: #fff;
+  color: #666;
+  cursor: pointer;
+  border-left: 1px solid #f4f4f4;
+}
+
+.frame-top-setting-name {
+  margin-top: 27px;
+  text-align: right;
+  line-height: 1.4em;
+  color: #c7cad8;
+}
+
+.frame-top-setting-name .user {
+  min-width: 120px;
+  text-align: left;
+  max-width: 200px;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.frame-top-setting-name .user span{
+  font-size: 14px;
+}
+
+.frame-top-setting-icon1 {
+  position: absolute;
+  font-size: 25px;
+  top: 36%;
+  margin-top: -10px;
+  left: 20px;
+  color: #6f748c;
+}
+
+.frame-top-setting-icon2 {
+  position: absolute;
+  font-size: 12px;
+  top: 41%;
+  margin-top: 0px;
+  right: 10px;
+  color: #ff6600;
+}
+
+.info:hover .frame-top-setting {
+  color: #FFFFFF;
+  background: #47a4df;
+}
+
+.info:hover .hover-div .frame-top-setting-icon1 {
+  color: #FFFFFF;
+}
+
+.info:hover .hover-div .frame-top-setting-name {
+  color: #FFFFFF;
+}
+
+.info:hover .hover-div .frame-top-setting-icon2 {
+  color: #FFFFFF;
+}
+
+.frame-top-setting-list {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 70px;
+  background-color: #fff;
+  color: #333;
+  display: none;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  z-index: 1000;
+}
+
+.frame-top-setting-list a {
+  display: block;
+  position: relative;
+  line-height: 40px;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0 10px 0 15px;
+  color: #666666;
+}
+
+.frame-top .frame-top-setting-list i.yc-icon {
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  right: 30px;
+  top: 50%;
+  margin-top: -10px;
+  color: #8f9199;
+}
+
+.frame-top .frame-top-help, .frame-top .frame-top-message {
+  float: right;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 10px 0px 40px;
+  margin-right: 1px;
+  position: relative;
+}
+
+.frame-main {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 70px;
+  left: 160px;
+  overflow: auto;
+}
+
+.frame-main iframe {
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,26 @@
+<div class="frame-top" id="topView">
+  <div class="logo fl">
+    <img src="assets/img/logo.png"/>
+  </div>
+</div>
+
+<div class="frame-main" #frameMain>
+  <router-outlet></router-outlet>
+</div>
+
+<!--右侧用户-->
+<div class="info">
+  <div class="frame-top-setting">
+    <div class="hover-div">
+      <div class="frame-top-setting-name">
+        <p class="user">
+          <span id="userName">你好,{{userInfo.userName}}</span>
+        </p>
+      </div>
+      <i class="yc-icon frame-top-setting-icon2">&#xe637;</i>
+    </div>
+    <div class="frame-top-setting-list">
+      <a href="javascript:void (0)" id="loginOut" (click)="userQuit()"><i class="yc-icon">&#xe792;</i> 退出登录</a>
+    </div>
+  </div>
+</div>

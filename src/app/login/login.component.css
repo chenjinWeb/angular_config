@@ -1,0 +1,81 @@
+.login{
+  height: 100%;
+  background: url("../../assets/img/login_bg.jpg") no-repeat;
+}
+.title{
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  background: #fff;
+  -webkit-box-shadow:0px 2px 10px #59a0f0;
+  -moz-box-shadow:0px 2px 10px #59a0f0;
+  box-shadow:0px 2px 10px #59a0f0;
+}
+.title .login_logo{
+  flex: 1;
+  position: absolute;
+  left: 100px;
+}
+.title .login_logo img{
+  vertical-align: middle;
+}
+.title .phone{
+  flex: 1;
+  position: absolute;
+  right: 100px;
+  color: #999;
+  font-size: 14px;
+}
+.title .phone span{
+  font-size: 16px;
+}
+.login-wrap{ position:absolute; top:50%; left:50%; margin:0 auto auto -140px; width:320px; text-align:center; }
+.login-form .col {  position: relative;  padding: 10px 0;  }
+.login-form .col .icon{ position:absolute; display:block; top:50%;transform: translate(0,-50%);-webkit-transform: translate(0,-50%); right:33px; width:18px; height:18px; background:url('../../assets/img/skin_icons.png') no-repeat; cursor:pointer; }
+.login-form .col .icon.user{ background-position:-110px -140px; }
+.login-form .col .icon.pwd{ background-position:-143px -140px; }
+
+.login-form .col .login-input {
+  border: 1px #ccc solid !important;
+  display: block;
+  padding: 5px 0 5px 16px;
+  background: #fff;
+  border: 0;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 36px;
+  height: 36px;
+  width:304px;
+  color: #333;
+}
+.copy-right{ display:block; position:absolute; right:0; bottom:0px; left:0; text-align:center; background: #e6e6e6;}
+.copy-right p{ font-size:14px; color:#999; height: 40px; line-height: 40px; }
+.login-form .col .login-btn {
+  margin-top: 22px;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  line-height:46px;
+  height: 46px;
+  background: #659fde;
+  border: 0;
+  border-radius: 3px;
+  letter-spacing: .5em;
+  cursor: pointer;
+  font-family: "Microsoft YaHei","SimHei";
+}
+.login_tips {
+  display: block;
+  margin: 10px auto 0;
+  height: 14px;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #83b7ce;
+  vertical-align: middle;
+}
